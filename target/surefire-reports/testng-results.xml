@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-22T17:49:57 IST" name="PlaywrightSuite" finished-at="2026-04-22T17:49:57 IST" duration-ms="61">
+    <groups>
+    </groups>
+    <test started-at="2026-04-22T17:49:57 IST" name="PlaywrightTests" finished-at="2026-04-22T17:49:57 IST" duration-ms="61">
+      <class name="Learning.Learn">
+        <test-method is-config="true" signature="Before()[pri:0, instance:Learning.Learn@79b06cab]" started-at="2026-04-22T17:49:57 IST" name="Before" finished-at="2026-04-22T17:49:57 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method signature="method()[pri:0, instance:Learning.Learn@79b06cab]" started-at="2026-04-22T17:49:57 IST" name="method" finished-at="2026-04-22T17:49:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- Learning.Learn -->
+    </test> <!-- PlaywrightTests -->
+  </suite> <!-- PlaywrightSuite -->
+</testng-results>
