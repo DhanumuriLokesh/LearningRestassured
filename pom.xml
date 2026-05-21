@@ -3,7 +3,7 @@
   <groupId>Playwright</groupId>
   <artifactId>package</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+
   <build>
     <plugins>
         <plugin>
@@ -18,26 +18,40 @@
         </plugin>
     </plugins>
   </build>
-  
+
   <dependencies>
-  	<dependency>
-	    <groupId>com.microsoft.playwright</groupId>
-	    <artifactId>playwright</artifactId>
-	    <version>1.43.0</version>
-	</dependency>
-	
-	<dependency>
-	    <groupId>org.testng</groupId>
-	    <artifactId>testng</artifactId>
-	    <version>7.9.0</version>
-	    <scope>test</scope>
-	</dependency>
-	  
-	  <dependency>
-	    <groupId>org.slf4j</groupId>
-	    <artifactId>slf4j-simple</artifactId>
-	    <version>2.0.12</version>
-	</dependency>
-  
+    <dependency>
+        <groupId>com.microsoft.playwright</groupId>
+        <artifactId>playwright</artifactId>
+        <version>1.43.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.9.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>2.0.12</version>
+    </dependency>
+
+    <!-- REST Assured -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.3.2</version>
+        <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.15.2</version>
+</dependency>
+
   </dependencies>
 </project>
