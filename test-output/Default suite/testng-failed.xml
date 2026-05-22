@@ -5,8 +5,8 @@
     <classes>
       <class name="com.leadwinner.api.tests.Test_UserLoginAPI">
         <methods>
-          <include name="signinWithValidDetails"/>
           <include name="setUp"/>
+          <include name="data"/>
         </methods>
       </class> <!-- com.leadwinner.api.tests.Test_UserLoginAPI -->
     </classes>
