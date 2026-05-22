@@ -1,0 +1,33 @@
+{
+    "headers": {
+        "designationId": "4",
+        "employeeDesignationId": "73581904734ULB1",
+        "employeeId": "7358190473",
+        "ulbCode": "ULB1"
+    },
+    "body": {
+        "udAsnDate": "2026-04-30T18:30:00.000Z",
+        "projectName": "PROJECT 189",
+        "udAsnNumber": "FUND 899998877",
+        "scheme": "TAMILNADU MODEL SCHOOLS",
+        "id": "",
+        "createdAt": "",
+        "bankName": "",
+        "bankAccount": "",
+        "schemeCode": "TNMS",
+        "projectCompletionDate": "2026-05-06T18:30:00.000Z",
+        "udAsnAmount": 12000,
+        "yearOfSanction": "2024-25",
+        "comments": "APPROVE",
+        "nextApproverDesignationId": 5,
+        "nextApproverEmployeeDesignationId": "70053573455ULB1",
+        "fundEntityList": [
+            {
+                "crcNumber": "Plastic Bucket",
+                "expenseName": "Infra - NRE",
+                "crcSanctionAmount": 12000,
+                "disableScheme": false
+            }
+        ]
+    }
+}

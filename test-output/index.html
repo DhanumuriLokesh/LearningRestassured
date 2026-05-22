@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Lokesh\AppData\Local\Temp\testng-eclipse--589778863\testng-customsuite.xml</span>
+                    <span>C:\Users\Lokesh\AppData\Local\Temp\testng-eclipse--1232127428\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.leadwinner.api.tests.Test_UserLoginAPI" class="method navigator-link" hash-for-method="createProjectDetails">createProjectDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.leadwinner.api.tests.Test_UserLoginAPI" class="method navigator-link" hash-for-method="signinWithValidDetails">signinWithValidDetails</a> <!-- method navigator-link -->
@@ -126,6 +131,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="createProjectDetails">
+                  </a> <!-- createProjectDetails -->
+                  <span class="method-name">createProjectDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="signinWithValidDetails">
                   </a> <!-- signinWithValidDetails -->
                   <span class="method-name">signinWithValidDetails</span>
@@ -136,7 +148,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Lokesh\AppData\Local\Temp\testng-eclipse--589778863\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Lokesh\AppData\Local\Temp\testng-eclipse--1232127428\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,11 +157,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.leadwinner.api.tests.Test_UserLoginAPI&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;signinWithValidDetails&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.leadwinner.api.tests.Test_UserLoginAPI --&gt;
+      &lt;class name=&quot;com.leadwinner.api.tests.Test_UserLoginAPI&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -189,16 +197,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'signinWithValidDetails')
 data.setCell(0, 2, 'com.leadwinner.api.tests.Test_UserLoginAPI')
-data.setCell(0, 3, 1945);
+data.setCell(0, 3, 2541);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createProjectDetails')
+data.setCell(1, 2, 'com.leadwinner.api.tests.Test_UserLoginAPI')
+data.setCell(1, 3, 374);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -213,9 +225,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.leadwinner.api.tests.Test_UserLoginAPI</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">data</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -231,7 +250,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">signinWithValidDetails</span>
-                <span class="method-start">440 ms</span>
+                <span class="method-start">325 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createProjectDetails</span>
+                <span class="method-start">2873 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
